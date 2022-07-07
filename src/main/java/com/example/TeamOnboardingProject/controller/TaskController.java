@@ -13,7 +13,7 @@ import javax.validation.Valid;
 import java.util.List;
 
 @RestController
-@RequestMapping("/tasks")
+@RequestMapping("/tasks1")
 public class TaskController {
     @Autowired
     private TaskService taskService;
